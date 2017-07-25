@@ -1,0 +1,22 @@
+{
+  "name": "with-ant-design-custom-theme",
+  "version": "1.0.0",
+  "license": "ISC",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "antd": "^2.12.2",
+    "babel-plugin-import": "^1.2.1",
+    "babel-plugin-module-resolver": "^2.7.1",
+    "babel-plugin-wrap-in-js": "^1.1.1",
+    "less": "^2.7.2",
+    "less-loader": "^4.0.5",
+    "next": "latest",
+    "raw-loader": "^0.5.1",
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1"
+  }
+}
