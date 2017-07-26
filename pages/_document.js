@@ -15,7 +15,7 @@ export default class MyDocument extends Document {
     return (
       <html lang="en">
         <Head>
-          <style dangerouslySetInnerHTML={{ __html: stylesheet }} />
+          <style jsx global>{ stylesheet }</style>
         </Head>
         <body>
           <LocaleProvider locale={enUS}>
