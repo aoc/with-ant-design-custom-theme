@@ -1,16 +1,16 @@
 {
-  "presets": [
-    "next/babel"
-  ],
+  "presets": ["next/babel"],
   "plugins": [
     [
-      "module-resolver", {
+      "module-resolver",
+      {
         "root": ["."],
         "alias": {
           "styles": "./styles"
         },
         "cwd": "babelrc"
-    }],
+      }
+    ],
     [
       "wrap-in-js",
       {

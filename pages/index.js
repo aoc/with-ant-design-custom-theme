@@ -1,3 +1,3 @@
-import { Button } from 'antd';
+import { Button } from "antd";
 
-export default () => <Button type="primary">Primary</Button>
+export default () => <Button type="primary">Primary</Button>;
