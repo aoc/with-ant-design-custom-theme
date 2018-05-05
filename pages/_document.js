@@ -1,8 +1,8 @@
-import Document, { Head, Main, NextScript } from "next/document";
-import flush from "styled-jsx/server";
-import enUS from "antd/lib/locale-provider/en_US";
-import { LocaleProvider } from "antd";
-import stylesheet from "styles/index.less";
+import Document, { Head, Main, NextScript } from 'next/document';
+import flush from 'styled-jsx/server';
+import enUS from 'antd/lib/locale-provider/en_US';
+import { LocaleProvider } from 'antd';
+import stylesheet from 'styles/index.less';
 
 export default class MyDocument extends Document {
   static getInitialProps({ renderPage }) {
@@ -15,7 +15,7 @@ export default class MyDocument extends Document {
     return (
       <html lang="en">
         <Head>
-          <style>{stylesheet}</style>
+          <style dangerouslySetInnerHTML={{ __html: stylesheet }} />
         </Head>
         <body>
           <LocaleProvider locale={enUS}>
